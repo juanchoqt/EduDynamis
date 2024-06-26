@@ -1528,6 +1528,7 @@ font-size: 30px!important;
 
 
 
+
 #enviar>#imagen_prueba2 {
   transform: translateY(100px);
 }
@@ -1548,6 +1549,37 @@ font-size: 30px!important;
   
 .about-section {
   height: 90%;
+}
+.contact-section{
+  padding-bottom: 300px!important;
+  
+}
+.titulosFooter{
+  font-size: 17.5px!important;
+}
+.subtitulosFooter{
+  font-size: 12.5px!important;
+
+}
+.botonRedSocial svg {
+  /*tamaño y altura de los iconos de las redes sociales*/
+  width: 3.0em!important;
+  /*ancho*/
+  height:3.0em!important;
+  /*altura*/
+}
+.efecto_porencimadelbotondelasredessociales:before {
+  --translate-y: -60px!important;
+  /*para que esté bien colocado*/
+  font-size: 1.5rem!important;
+}
+
+.fuenteCopyRight{
+  font-size: 20px!important;
+  margin-top: -5px!important;
+}
+.estilosRedesSocialesFooter{
+  margin-top: -110px!important;
 }
 }
 
@@ -1613,6 +1645,8 @@ font-size: 30px!important;
     background-position-x: -1000px;
     /*para que se animen las olas*/
   }
+
+  
 }
 
 /*estilos letras y relleno del footer*/
